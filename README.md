@@ -30,7 +30,8 @@ npm install vue-particles --save-dev
 ## 局部安装完 vue-particles 后，在 main.js 引入，并在vue项目中使用。
 
 ``` bash
-import VueParticles from 'vue-particles'  
+import VueParticles from 'vue-particles'
+
 Vue.use(VueParticles)  
 ```
 
