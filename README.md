@@ -1,6 +1,6 @@
 # vue-particle
 
-> A Vue.js project
+> vue-particles可以生成类似于星座图的点和线，并且能与用户的鼠标事件产生互动。
 
 ## Build Setup
 
@@ -21,22 +21,22 @@ npm run build --report
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
-## vue-particles可以生成类似于星座图的点和线，并且能与用户的鼠标事件产生互动。
-
 ## 使用教程 ：
 
+``` bash
 npm install vue-particles --save-dev  
-
+```
 
 ## 局部安装完 vue-particles 后，在 main.js 引入，并在vue项目中使用。
 
+``` bash
 import VueParticles from 'vue-particles'  
 Vue.use(VueParticles)  
-
+```
 
 ## 成功引入后，以一个简单的例子作为demo。 直接在App.vue中添加vue-particles：
 
-```
+``` bash
 <template>  
     <div id="app">
       <vue-particles color="#dedede"></vue-particles>
@@ -46,6 +46,7 @@ Vue.use(VueParticles)
  
  ## 通过设置vue-particles选项来实现一个比较完整的例子：
  
+ ``` bash
 <template>  
     <div id="app">
       <vue-particles
@@ -68,11 +69,11 @@ Vue.use(VueParticles)
       </vue-particles>
     </div>
  </template>
- 
+```
 
 ## 属性分别如下所示：
 
-
+``` bash
 color: String类型。默认'#dedede'。粒子颜色。
 
 particleOpacity: Number类型。默认0.7。粒子透明度。
@@ -103,6 +104,6 @@ clickEffect: 布尔类型。默认true。是否有click特效。
 
 clickMode: String类型。默认true。可用的click模式有: "push", "remove", "repulse", "bubble"。
 
-
+```
 
 
