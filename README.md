@@ -21,16 +21,18 @@ npm run build --report
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
-#  vue-particles可以生成类似于星座图的点和线，并且能与用户的鼠标事件产生互动。
+## vue-particles可以生成类似于星座图的点和线，并且能与用户的鼠标事件产生互动。
 
-### 使用教程 ：
+## 使用教程 ：
 
 npm install vue-particles --save-dev  
 
-## 局部安装完vue-particles后，在main.js引入，并在vue项目中使用。
+
+## 局部安装完 vue-particles 后，在 main.js 引入，并在vue项目中使用。
 
 import VueParticles from 'vue-particles'  
 Vue.use(VueParticles)  
+
 
 ## 成功引入后，以一个简单的例子作为demo。 直接在App.vue中添加vue-particles：
 
@@ -39,6 +41,7 @@ Vue.use(VueParticles)
       <vue-particles color="#dedede"></vue-particles>
     </div>
  </template>
+ 
  
  ## 通过设置vue-particles选项来实现一个比较完整的例子：
  
@@ -64,6 +67,7 @@ Vue.use(VueParticles)
       </vue-particles>
     </div>
  </template>
+ 
 
 ## 属性分别如下所示：
 
