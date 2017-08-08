@@ -36,12 +36,13 @@ Vue.use(VueParticles)
 
 ## 成功引入后，以一个简单的例子作为demo。 直接在App.vue中添加vue-particles：
 
+``` bash
 <template>  
     <div id="app">
       <vue-particles color="#dedede"></vue-particles>
     </div>
- </template>
- 
+</template>
+ ```
  
  ## 通过设置vue-particles选项来实现一个比较完整的例子：
  
