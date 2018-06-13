@@ -109,7 +109,7 @@ clickMode: String类型。默认true。可用的click模式有: "push", "remove"
 
 ## 效果 ：
 
-放张静态图片大致感受下粒子效果，实际效果是动态的，包括跟着鼠标移动等动效，可以通过上面提到的参数自己进行个性化配置。
+最后，放张静态图片大致感受下粒子效果，实际效果是动态的，包括跟着鼠标移动等动效，可以通过上面提到的参数自己进行个性化配置。
 
 
 ![1.png](https://github.com/lulin1/vue-particles/blob/master/static/img/1.png)
