@@ -107,4 +107,8 @@ clickMode: String类型。默认true。可用的click模式有: "push", "remove"
 
 ```
 
+## 效果大致如下：（实际是动态，包括跟着鼠标移动等动效）
+
+![1.png](https://github.com/lulin1/vue-particles/blob/master/static/img/1.png)
+
 
